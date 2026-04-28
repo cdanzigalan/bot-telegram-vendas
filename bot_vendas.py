@@ -14,7 +14,7 @@ force_ipv4()
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "7984594290:AAGZYMSoSPsrvsWF5a_2uUMUlrn5u2nByh4"
+TOKEN = "8782914842:AAESUgt5kclrmMYuFc4PvCuN3_yNRn9UGsg"
 PIX = "https://livepix.gg/melissacostelli"
 
 
