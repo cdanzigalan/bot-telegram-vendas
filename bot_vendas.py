@@ -39,8 +39,11 @@ Clique abaixo para comprar 👇
         [InlineKeyboardButton("💎 COMPRAR ACESSO", callback_data="comprar")]
     ])
 
-    await update.message.reply_text(texto, reply_markup=teclado)
-
+    await update.message.reply_photo(
+        photo=open("foto.png", "rb"),
+        caption=texto,
+        reply_markup=teclado
+    )
 
 async def comprar(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
